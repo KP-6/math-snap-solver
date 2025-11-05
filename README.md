@@ -1,82 +1,63 @@
-# Math Snap Solver ✨
+✨ Math Snap Solver
 
-Solve math problems by snapping a photo using Next.js, Genkit, and Google Gemini.
+Snap, Solve, and Learn — Instantly.
+A powerful math-solving web app built with Next.js, Genkit, and Google Gemini that lets you solve handwritten or printed math problems by simply snapping a photo.
 
----
+🚀 Features
 
-## 🚀 Features
+📷 Camera & Image Upload — Capture or upload math problem images effortlessly
 
-- 📷 Image upload and camera capture
-- 🤖 AI-powered OCR with error correction
-- 🧮 Step-by-step math problem solving
-- 🎨 Beautiful UI with Tailwind CSS and ShadCN
+🤖 AI OCR + Correction — Extracts equations accurately using Gemini and intelligent error correction
 
----
+🧮 Step-by-Step Solutions — Generates detailed, human-readable math solutions
 
-## 🛠️ Setup
+🎨 Modern UI — Clean, responsive design powered by Tailwind CSS & ShadCN UI
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-Create a .env.local file with your Google Gemini API key:
+🧾 Beautiful Math Rendering — Precise equation formatting using KaTeX
 
-env
-Copy
-Edit
+🛠️ Setup
+
+Install dependencies
+
+npm install
+
+
+Create a .env.local file and add your Gemini API key:
+
 GEMINI_API_KEY=your_api_key_here
-Start the development server:
 
-bash
-Copy
-Edit
+
+Start the development server
+
 npm run dev
+
 🧰 Tech Stack
-⚛️ Next.js 13+ (App Router)
-
-🟦 TypeScript
-
-🎨 Tailwind CSS + ShadCN UI
-
-🔮 Genkit + Google Gemini
-
-📦 React Dropzone
-
-📷 MediaDevices API
-
-🧾 KaTeX for math rendering
-
+Category	Tools Used
+Framework	⚛️ Next.js 13+ (App Router)
+Language	🟦 TypeScript
+Styling	🎨 Tailwind CSS + ShadCN UI
+AI Engine	🔮 Genkit + Google Gemini
+File Handling	📦 React Dropzone
+Camera Access	📷 MediaDevices API
+Math Rendering	🧾 KaTeX
 📸 Usage
-Upload an image or take a photo of a math problem
 
-Let the AI extract and correct the text
+Upload or capture an image containing a math problem
 
-Click "Solve Problem" to get a step-by-step solution
+Let the AI extract and refine the equation
 
-View the solution rendered with proper mathematical notation
+Click “Solve Problem” to generate step-by-step explanations
+
+View results beautifully rendered with mathematical notation
 
 🤝 Contributing
+
 Fork the repository
 
-Create your feature branch
+Create a feature branch (git checkout -b feature-name)
 
-Commit your changes
+Commit your changes (git commit -m "Add new feature")
 
-Push to the branch
+Push to your branch (git push origin feature-name)
 
-Create a new Pull Request
-
-📂 Repository
-GitHub: math-snap-solver
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like to:
-- Add a screenshot or demo video section
-- Include deployment instructions (e.g., Vercel)
-- Create badges (build status, license, etc.)
-
-I can generate those too!
+Open a Pull Request
